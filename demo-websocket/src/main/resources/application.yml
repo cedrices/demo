@@ -1,0 +1,14 @@
+
+spring:
+  jms:
+    pub-sub-domain: true
+  activemq:
+    broker-url: tcp://127.0.0.1:61616
+    user: admin
+    password: admin
+    pool:
+      enabled: true
+      max-connections: 50
+      idle-timeout: 30000
+server:
+  port: 8081
